@@ -68,4 +68,72 @@ h6{
     color: red;
     display: inline;
 }
+.formulario {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
+.contact-form {
+    background: #897eb6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(29, 13, 104, 0.1);
+    width: 100%;
+    max-width: 600px;
+   
+}
+.contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #2c022e;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.contact-form textarea {
+    resize: vertical;
+    height: 150px;
+}
+.contact-form button {
+    background-color: rgb(79, 16, 121);
+    color: #000000;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.contact-form button:hover {
+    background-color: #f9f8ff;
+}
+ .sobre{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+padding: 5px;
+ }
+
+.figma{
+    width: 300px;
+align-items: center;
+border-radius: 3000px;
+ }
+
+.link {
+    color: #cf0909;
+    font-size: 19px;
+}
